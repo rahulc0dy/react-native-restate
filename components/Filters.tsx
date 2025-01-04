@@ -30,6 +30,7 @@ const Filters = () => {
             selectedCategory === item.category ? 'bg-primary-300' : 'bg-primary-100 border-primary-200'
           }`}
           onPress={() => handleCategoryPress(item.category)}
+          key={index}
         >
           <Text
             className={`text-sm ${
